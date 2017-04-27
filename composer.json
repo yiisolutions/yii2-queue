@@ -1,0 +1,26 @@
+{
+  "name": "yiisolution/yii2-queue",
+  "type": "yii2-extension",
+  "description": "Extension for work with queues",
+  "keywords": ["yii2", "queue", "rabbitmq", "amqp"],
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisolutions/yii2-queue/issues",
+    "source": "https://github.com/yiisolutions/yii2-queue"
+  },
+  "authors": [
+    {
+      "name": "Memory Clutter",
+      "email": "memclutter@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "php-amqplib/php-amqplib": ">=2.6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "yiisolutions\\queue\\": ""
+    }
+  }
+}
