@@ -1,5 +1,5 @@
 {
-  "name": "yiisolution/yii2-queue",
+  "name": "yiisolutions/yii2-queue",
   "type": "yii2-extension",
   "description": "Extension for work with queues",
   "keywords": ["yii2", "queue", "rabbitmq", "amqp"],
