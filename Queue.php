@@ -50,6 +50,7 @@ class Queue extends Component
     public function listen($queue, $callback)
     {
         $channel = $this->getChannel();
+        $channel->queue_declare($queue, false, true, false, false);
         $channel->basic_consume($queue, '', false, false, false, false, $callback);
 
         while (count($channel->callbacks)) {
